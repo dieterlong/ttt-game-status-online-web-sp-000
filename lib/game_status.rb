@@ -51,10 +51,8 @@ def inprogress?(board)
 
 
 def over?(board)
-  if !won?(board) || full?(board) || draw?(board)
+  if !won?(board) || full?(board) || draw?(board) || inprogress?(board)
     true
-  elsif inprogress?(board)
-    false
   end
 end
 
