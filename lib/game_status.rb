@@ -46,7 +46,7 @@ end
 end
 
 def inprogress?(board)
-  board.any? {|index| index== " "}
+  board.any? {|index| index== " " || index == ""}
   end
 
 
