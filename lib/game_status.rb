@@ -52,7 +52,7 @@ def over?(board)
     return true
   elsif not_full_won?(board)
     return true
-    elsif in_progress?(board) 
+    elsif in_progress?(board)
       return false 
   else
     return false
