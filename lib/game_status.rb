@@ -34,9 +34,11 @@ return false
 end
 
 def full?(board)
-  if board==[0,1,2]
+  if board==[0,1,2] || board==["","",""]
     true
   elsif
     false
   end
 end
+
+
