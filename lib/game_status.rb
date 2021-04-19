@@ -49,12 +49,10 @@ end
 
 def over?(board)
   if !won?(board) || full?(board) || draw?(board)
-    return true
-  elsif not_full_won?(board)
-    return true
-    elsif in_progress?(board)
-      return false 
-  else
-    return false
+    true
   end
 end
+    
+
+def winner(board)
+  
