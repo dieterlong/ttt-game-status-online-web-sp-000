@@ -45,7 +45,7 @@ else
 end
 end
 
-def inprogress(board)
+def inprogress?(board)
   board.any? {|index| index== " "}
   end
 
@@ -53,6 +53,8 @@ def inprogress(board)
 def over?(board)
   if !won?(board) || full?(board) || draw?(board)
     true
+  elsif inprogress?(board)
+    false 
   end
 end
 
