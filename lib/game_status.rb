@@ -44,9 +44,7 @@ end
 def draw?(board)
   if board==[]
     true
-  elsif 
+  elsif
     false
   end
 end
-
-    
