@@ -34,11 +34,7 @@ return false
 end
 
 def full?(board)
-  if board==[0,1,2] || board==[]
-    true
-  elsif
-    false
-  end
+  board.all? {|index| index == "X" || == "O"}
 end
 
 def draw?(board)
@@ -48,3 +44,5 @@ def draw?(board)
     false
   end
 end
+
+
