@@ -40,3 +40,13 @@ def full?(board)
     false
   end
 end
+
+def draw?(board)
+  if board==[]
+    true
+  elsif 
+    false
+  end
+end
+
+    
