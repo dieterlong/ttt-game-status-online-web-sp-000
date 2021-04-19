@@ -38,9 +38,9 @@ def full?(board)
 end
 
 def draw?(board)
-  if board==[]
-    true
-  elsif
-    false
-  end
+if full?(board)
+  true
+else
+  false
+end
 end
