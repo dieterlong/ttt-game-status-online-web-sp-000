@@ -53,7 +53,7 @@ def inprogress?(board)
 def over?(board)
   if !won?(board) || full?(board) || draw?(board)
     true
-  elsif inprogress?(board)
+  elsif !won?(board) || inprogress?(board)
     false 
   end
 end
