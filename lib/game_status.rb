@@ -36,9 +36,7 @@ end
 def full?(board)
   if board==[0,1,2]
     true
-  elsif 
+  elsif
     false
   end
 end
-    
-  
